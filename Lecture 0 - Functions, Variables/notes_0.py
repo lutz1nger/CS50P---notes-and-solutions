@@ -31,7 +31,7 @@ print('hello', 'world')  #output: hello world
 
 #CHECK ALWAYS THE FUNCTION DOCUMENTATION!!! e.g. for print():
 
-print(*objects, sep=' ', end='\n', file=None, flush=False) #* before objects means that multiple arguments can be used as input, default seperation is a whitespace (sep=' '), default end is a new line (end='\n')
+print(*objects, sep=' ', end='\n', file=None, flush=False) #asterik(*) before objects means that multiple arguments can be used as input, default seperation is a whitespace (sep=' '), default end is a new line (end='\n')
 
 #objects, sep, end, ... are called PARAMETERS -> difference arguments and parameters: parameters are defined in the function definition and arguments are values being passed to the function
 
@@ -52,7 +52,7 @@ f_string = f'hello, {name}' #the f indidactes it is a f string and therefore, th
 
 #INT:
 #int variable -> integers
-#can be used with e.g.  +, -, *, /, and % operators; in python % is the modulo parameter (return remainder of a division)
+#can be used with e.g.  +, -, *, /, and % operators; in python % is the modulo parameter (return remainder of a division, e.g. 4%2 = 0 and 5%2 = 1)
 #function int() can be used to convert variable into int variable
 
 #FLOAT:
