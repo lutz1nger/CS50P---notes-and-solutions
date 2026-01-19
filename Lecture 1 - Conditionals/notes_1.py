@@ -20,4 +20,6 @@
 
 #or
 
-#and -> not necessary chained
+#and -> can be chained
+
+#
