@@ -19,6 +19,14 @@ y = int2                         #y is an integer
 if x < y:                        #if statement compares x and y and returns a boolean expression/bool, bools can only be TRUE (1) or FALSE (0)
     print("x is less than y")    #when the if statement is TRUE, the indented block is executed
 
+#alternative if not statement is possible as well, e.g.
+
+x = int1                         #x is an integer
+y = int2                         #y is an integer
+
+if not x == y:                   #if not statement compares if x is not equal to y
+    print("x not equal to y")    #when the if statement is TRUE, the indented block is executed
+
 #for a better control flow the elif statement and else statement can be used, e.g.
 
 x = int1                             #x is an integer
@@ -31,7 +39,7 @@ elif x > y:                          #elif stat statement compares if x is great
 else:                                
     print("x is equal to y")         #when the elif statement is FALSE, the indented block is executed
 
-#advantage: elif statement are only checked if the prior condition is FALSE, e.g. when in the code above the if statement is TRUE, the elif statement is not checked and skipped -> processing power is saved
+#elif statement are only checked if the prior condition is FALSE, e.g. when in the code above the if statement is TRUE, the elif statement is not checked and skipped -> advantage: processing power is saved
 #else is only good when there are no other options you want to test for!!!
 
 #OR
@@ -143,7 +151,8 @@ def main():
 def is_even(n):
     return n % 2 == 0                     #if statement compares if the modulo of n/2 is eual to 0 and return either TRUE or FALSE
 
-#additional information: Python follows the same precedence rules for its mathematical operators that mathematics does. parentheses have the highest precedence and can be used to force an expression to evaluate in the order you want. Since expressions in parentheses are evaluated first.
+#additional information: Python follows the same precedence rules for its mathematical operators that mathematics does. parentheses have the highest precedence and can be used to force an expression to evaluate in the order you want.
+#Since expressions in parentheses are evaluated first!!!
 
 #MATCH
 #match statement compares the value following the match keyword with each of the values following the case keywords
