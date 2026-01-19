@@ -19,3 +19,5 @@
 #else
 
 #or
+
+#and -> not necessary chained
